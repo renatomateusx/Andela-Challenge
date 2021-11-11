@@ -1,0 +1,6 @@
+framework module Pods_Andela_Challenge_Andela_ChallengeUITests {
+  umbrella header "Pods-Andela-Challenge-Andela-ChallengeUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

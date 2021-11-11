@@ -1,0 +1,1060 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		154090B7B2FC2E959FE8B962E4FD5883 /* Pods-Andela-Challenge-Andela-ChallengeUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FB5AA5E0BDFB320021D67B4D23A2FC12 /* Pods-Andela-Challenge-Andela-ChallengeUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1797EBF229ACA3B7F45CC2A602D7CA16 /* KingfisherOptionsInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60870DE9BED2BF03E13BE8F63D766190 /* KingfisherOptionsInfo.swift */; };
+		1AEF9993254E6DC249784BC73E1F3E0B /* KingfisherManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C757F0F7798B47B0B48A85B5F4232438 /* KingfisherManager.swift */; };
+		227D467BBA344D4B0E7E4EF8CA254D5F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD0CE05D5D076B1B5190EE5DF97FD54E /* Foundation.framework */; };
+		25D230001F255507FE4EC823127F1537 /* UIButton+Kingfisher.swift in Sources */ = {isa = PBXBuildFile; fileRef = F00EB2F4F7B423B4284CAFE624D76523 /* UIButton+Kingfisher.swift */; };
+		26DC5CF5D24D83CA4FAF26FEEDEC22B3 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D3D57353834825F7B52B816066B7789 /* CFNetwork.framework */; };
+		30D201E73DAEAD3755CF82D6C634CB84 /* Pods-Andela-Challenge-Andela-ChallengeUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B218EB0409AF66CE21478CE53DCFC70 /* Pods-Andela-Challenge-Andela-ChallengeUITests-dummy.m */; };
+		39B7ADBBE2DA828B62636B288AB49D7F /* Kingfisher-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F78F10CF9841104026179BEB4D6C5D9 /* Kingfisher-dummy.m */; };
+		4934CA02086672D3B39EDBFF4FBF8210 /* Placeholder.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF5950A433059A2F55B5DC4DAE649BED /* Placeholder.swift */; };
+		4BECAF3CB00D9C3D9672413C29C6BF33 /* Indicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46E53B8C90899A666A50AD947B4F2E5D /* Indicator.swift */; };
+		5F2CC384EFCDA4125101AB155D908B87 /* Pods-Andela-ChallengeTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ECCBD9D1B47FEF3442551E527FC8E0C /* Pods-Andela-ChallengeTests-dummy.m */; };
+		60C639BAF932A36DDF221240B4512423 /* ImageDownloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = F51806A502FF0E79F06D81C7E16C6DC3 /* ImageDownloader.swift */; };
+		6681AF1FD538F4733A925E42BD4412B6 /* ImageCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5BF1A16D5036EF228C801D90678F604 /* ImageCache.swift */; };
+		8327B7A541C1348BB74B42E0322152F6 /* ImagePrefetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = B093DDCE4C55268908B94B9E9B4D438C /* ImagePrefetcher.swift */; };
+		83D2000349CA225B1585EE55CA777E61 /* RequestModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FC5B5C09A6CC22678CF02739E5D7E07 /* RequestModifier.swift */; };
+		87E662D163C07295C9C3EF3D36CC240E /* FormatIndicatedCacheSerializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13C7D1201DD68D9086913671AC54AF12 /* FormatIndicatedCacheSerializer.swift */; };
+		8826398DD36B6378A4323BC6A6498D67 /* ImageModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7E54D7E88982ABB86752D6E63C95C1B /* ImageModifier.swift */; };
+		8B7C8723049D635F9391828449049500 /* Resource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D2FB2DCC94D929614D73683CC25004 /* Resource.swift */; };
+		A03B25361040CCD3494AD95A7A283038 /* Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = 853B82B42DE5C884C785ED414851628B /* Image.swift */; };
+		A096861D62BA5EAFAA2BE8C349BA973D /* Pods-Andela-ChallengeTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CB6483985D4D9403BFD01F66680771D9 /* Pods-Andela-ChallengeTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A8002EBBA54C95636E53BE9B2E7521ED /* Kingfisher-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A7718FC847D0B75A589B7EBBBBDCEEBB /* Kingfisher-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B71899220FE4B4393618C22F64EDF1BA /* ThreadHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 732E8FDA8F19726D465D37B58C721C70 /* ThreadHelper.swift */; };
+		B81E66D2E50F259201580FB73AE5B053 /* Box.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC8CA0301D9971F796E0AD9B627416AC /* Box.swift */; };
+		C07CD77A27192E173EE9ACECA10D12C6 /* ImageView+Kingfisher.swift in Sources */ = {isa = PBXBuildFile; fileRef = E88C18C8262BE8CCEB67F47F04F8E303 /* ImageView+Kingfisher.swift */; };
+		C1B39D9520E174E75566A22342114814 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD0CE05D5D076B1B5190EE5DF97FD54E /* Foundation.framework */; };
+		CB965FB1926761BA3F7FDB8CB83DD5BD /* String+MD5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66B856E2D2E6F913745887BA056311FC /* String+MD5.swift */; };
+		CD076312FBCFADF5A5D3A7B825143174 /* Kingfisher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68F49AB4949A6E35F9F7D29237447109 /* Kingfisher.swift */; };
+		CD4823161DBD529C7BFF79AE9EA2E033 /* AnimatedImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DF4BAF062EE244708D6558DD595F92F /* AnimatedImageView.swift */; };
+		D26D9ABB0E997BBA50C823AD30938A67 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD0CE05D5D076B1B5190EE5DF97FD54E /* Foundation.framework */; };
+		DAB1D67788D9BEBCC3157B3E3FB4F00E /* ImageProcessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA167F71928BC78569593BDB14934A44 /* ImageProcessor.swift */; };
+		DB7D205F2475A0143D1B4FE400B6A52E /* Pods-Andela-Challenge-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D3C0EEB073D3B447D569876116981AF7 /* Pods-Andela-Challenge-dummy.m */; };
+		DE5EA0F561515BE3A08EF4E61AA0D669 /* CacheSerializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A803B2E216BB4562DD763A78A63F75B /* CacheSerializer.swift */; };
+		E235FE7A7FD9F87DBF53ED35F593B0C6 /* Pods-Andela-Challenge-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3EE77167BF472D6C1B5863ED52020739 /* Pods-Andela-Challenge-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E682D48021700A0CB14CFBB312E908B0 /* Filter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9538B2E3262A4D090B59582EB2F7B61C /* Filter.swift */; };
+		EAC88BBDD1750FBF4D82622EDE019D73 /* Kingfisher.h in Headers */ = {isa = PBXBuildFile; fileRef = 23065A8661147711B7550F85B0445C48 /* Kingfisher.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EC4E36223FA06F96D5F580D856EAA933 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD0CE05D5D076B1B5190EE5DF97FD54E /* Foundation.framework */; };
+		F94823179D8879708330D21501EF7FA5 /* ImageTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6CC9E26ADDD6607DF48E1AEF5F8113F /* ImageTransition.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		132E379BFB195CA940F36C5236701785 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A53199F1A71CC6FFDA06E38660B91BF0;
+			remoteInfo = "Pods-Andela-Challenge";
+		};
+		84C1D4CC4F6C97D76AB4F96F0C7D9CD4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E8022D22FAA6690B5E1C379C1BCE1491;
+			remoteInfo = Kingfisher;
+		};
+		96A1B368EA714B0A3FC4DF0208766EB0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E8022D22FAA6690B5E1C379C1BCE1491;
+			remoteInfo = Kingfisher;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		038780D54FBBC6704D0164EF7346FE8E /* Pods-Andela-ChallengeTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Andela-ChallengeTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		064B91285671491C76EB7177CE5A21B2 /* Pods-Andela-Challenge.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Andela-Challenge.release.xcconfig"; sourceTree = "<group>"; };
+		0B218EB0409AF66CE21478CE53DCFC70 /* Pods-Andela-Challenge-Andela-ChallengeUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Andela-Challenge-Andela-ChallengeUITests-dummy.m"; sourceTree = "<group>"; };
+		13C7D1201DD68D9086913671AC54AF12 /* FormatIndicatedCacheSerializer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FormatIndicatedCacheSerializer.swift; path = Sources/FormatIndicatedCacheSerializer.swift; sourceTree = "<group>"; };
+		1B74261A5918441418497FB2666B7F8D /* Kingfisher.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Kingfisher.release.xcconfig; sourceTree = "<group>"; };
+		1E5B2F0CCCDD61887292FF4ED7975430 /* Kingfisher-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Kingfisher-Info.plist"; sourceTree = "<group>"; };
+		23065A8661147711B7550F85B0445C48 /* Kingfisher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Kingfisher.h; path = Sources/Kingfisher.h; sourceTree = "<group>"; };
+		25F08440FFAA8602F4375D58FECF2DF8 /* Pods-Andela-Challenge-Andela-ChallengeUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Andela-Challenge-Andela-ChallengeUITests-Info.plist"; sourceTree = "<group>"; };
+		279A68ADE182422D8AB7C7E4C4D2C901 /* Pods-Andela-Challenge-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Andela-Challenge-Info.plist"; sourceTree = "<group>"; };
+		35A932E69AB4E257A59A0206AB214082 /* Pods-Andela-Challenge-Andela-ChallengeUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Andela-Challenge-Andela-ChallengeUITests-frameworks.sh"; sourceTree = "<group>"; };
+		3BB4FBC61ECEBC812F8B77EC593E7D97 /* Pods-Andela-Challenge-Andela-ChallengeUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Andela-Challenge-Andela-ChallengeUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3DF4BAF062EE244708D6558DD595F92F /* AnimatedImageView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AnimatedImageView.swift; path = Sources/AnimatedImageView.swift; sourceTree = "<group>"; };
+		3EE77167BF472D6C1B5863ED52020739 /* Pods-Andela-Challenge-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Andela-Challenge-umbrella.h"; sourceTree = "<group>"; };
+		46E53B8C90899A666A50AD947B4F2E5D /* Indicator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Indicator.swift; path = Sources/Indicator.swift; sourceTree = "<group>"; };
+		4C89119740E2DB32FAFE15E4EAFB5FA4 /* Pods-Andela-Challenge-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Andela-Challenge-acknowledgements.markdown"; sourceTree = "<group>"; };
+		4EBA9C0317B7C320BE320C218A31CA9B /* Pods-Andela-Challenge.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Andela-Challenge.modulemap"; sourceTree = "<group>"; };
+		4F78F10CF9841104026179BEB4D6C5D9 /* Kingfisher-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Kingfisher-dummy.m"; sourceTree = "<group>"; };
+		57D2FB2DCC94D929614D73683CC25004 /* Resource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Resource.swift; path = Sources/Resource.swift; sourceTree = "<group>"; };
+		5A803B2E216BB4562DD763A78A63F75B /* CacheSerializer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CacheSerializer.swift; path = Sources/CacheSerializer.swift; sourceTree = "<group>"; };
+		60870DE9BED2BF03E13BE8F63D766190 /* KingfisherOptionsInfo.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KingfisherOptionsInfo.swift; path = Sources/KingfisherOptionsInfo.swift; sourceTree = "<group>"; };
+		66B856E2D2E6F913745887BA056311FC /* String+MD5.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "String+MD5.swift"; path = "Sources/String+MD5.swift"; sourceTree = "<group>"; };
+		68F49AB4949A6E35F9F7D29237447109 /* Kingfisher.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Kingfisher.swift; path = Sources/Kingfisher.swift; sourceTree = "<group>"; };
+		6DF35F1AF153D4127A82499EAE4D7F4E /* Pods-Andela-Challenge-Andela-ChallengeUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Andela-Challenge-Andela-ChallengeUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		703668BA5C2C720FCA7BFF297E1D0DE3 /* Pods-Andela-ChallengeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Andela-ChallengeTests.release.xcconfig"; sourceTree = "<group>"; };
+		732E8FDA8F19726D465D37B58C721C70 /* ThreadHelper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ThreadHelper.swift; path = Sources/ThreadHelper.swift; sourceTree = "<group>"; };
+		7CAD460D89610B055A6228301A7E52B8 /* Pods-Andela-Challenge-Andela-ChallengeUITests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-Andela-Challenge-Andela-ChallengeUITests"; path = Pods_Andela_Challenge_Andela_ChallengeUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7FC5B5C09A6CC22678CF02739E5D7E07 /* RequestModifier.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RequestModifier.swift; path = Sources/RequestModifier.swift; sourceTree = "<group>"; };
+		836EBAFF99D10B1A767C17B5195E533F /* Pods-Andela-Challenge.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Andela-Challenge.debug.xcconfig"; sourceTree = "<group>"; };
+		853B82B42DE5C884C785ED414851628B /* Image.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Image.swift; path = Sources/Image.swift; sourceTree = "<group>"; };
+		8CE8E5C5FC5CAC46C9B80AC6EA860CA1 /* Pods-Andela-Challenge-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Andela-Challenge-frameworks.sh"; sourceTree = "<group>"; };
+		8D3D57353834825F7B52B816066B7789 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/CFNetwork.framework; sourceTree = DEVELOPER_DIR; };
+		8ECCBD9D1B47FEF3442551E527FC8E0C /* Pods-Andela-ChallengeTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Andela-ChallengeTests-dummy.m"; sourceTree = "<group>"; };
+		9538B2E3262A4D090B59582EB2F7B61C /* Filter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Filter.swift; path = Sources/Filter.swift; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9E6B5BF774B4783DCF5AF475A824B079 /* Pods-Andela-Challenge-Andela-ChallengeUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Andela-Challenge-Andela-ChallengeUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		9FB87C2B65B910E8E0E8A8D41E417224 /* Pods-Andela-ChallengeTests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-Andela-ChallengeTests"; path = Pods_Andela_ChallengeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A49A868BBE1FC25981BC2CE7227C1E0D /* Pods-Andela-ChallengeTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Andela-ChallengeTests.modulemap"; sourceTree = "<group>"; };
+		A6CC9E26ADDD6607DF48E1AEF5F8113F /* ImageTransition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageTransition.swift; path = Sources/ImageTransition.swift; sourceTree = "<group>"; };
+		A7718FC847D0B75A589B7EBBBBDCEEBB /* Kingfisher-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Kingfisher-umbrella.h"; sourceTree = "<group>"; };
+		AFC663217377829FCC605EDAC6E4D8FB /* Pods-Andela-ChallengeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Andela-ChallengeTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B093DDCE4C55268908B94B9E9B4D438C /* ImagePrefetcher.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImagePrefetcher.swift; path = Sources/ImagePrefetcher.swift; sourceTree = "<group>"; };
+		B5BF1A16D5036EF228C801D90678F604 /* ImageCache.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageCache.swift; path = Sources/ImageCache.swift; sourceTree = "<group>"; };
+		B61956F8E920142A06EBD263C23B5F6D /* Kingfisher.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Kingfisher.debug.xcconfig; sourceTree = "<group>"; };
+		B7E54D7E88982ABB86752D6E63C95C1B /* ImageModifier.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageModifier.swift; path = Sources/ImageModifier.swift; sourceTree = "<group>"; };
+		C3F44C782D64D7EB20B61CE3844EBFAD /* Kingfisher */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Kingfisher; path = Kingfisher.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C602A48172BEE4D723FA43BA60F0F71D /* Pods-Andela-Challenge-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Andela-Challenge-acknowledgements.plist"; sourceTree = "<group>"; };
+		C757F0F7798B47B0B48A85B5F4232438 /* KingfisherManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KingfisherManager.swift; path = Sources/KingfisherManager.swift; sourceTree = "<group>"; };
+		C94FF85765516279B40168AB39DAFACC /* Pods-Andela-Challenge */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-Andela-Challenge"; path = Pods_Andela_Challenge.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB6483985D4D9403BFD01F66680771D9 /* Pods-Andela-ChallengeTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Andela-ChallengeTests-umbrella.h"; sourceTree = "<group>"; };
+		CF5950A433059A2F55B5DC4DAE649BED /* Placeholder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Placeholder.swift; path = Sources/Placeholder.swift; sourceTree = "<group>"; };
+		D3C0EEB073D3B447D569876116981AF7 /* Pods-Andela-Challenge-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Andela-Challenge-dummy.m"; sourceTree = "<group>"; };
+		DA167F71928BC78569593BDB14934A44 /* ImageProcessor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageProcessor.swift; path = Sources/ImageProcessor.swift; sourceTree = "<group>"; };
+		DAC0ACE30B6D7A9DB6D91F45CFE770D0 /* Kingfisher-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Kingfisher-prefix.pch"; sourceTree = "<group>"; };
+		E6376DC144E7FAD5E35CEDC99DCF8919 /* Kingfisher.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Kingfisher.modulemap; sourceTree = "<group>"; };
+		E88C18C8262BE8CCEB67F47F04F8E303 /* ImageView+Kingfisher.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ImageView+Kingfisher.swift"; path = "Sources/ImageView+Kingfisher.swift"; sourceTree = "<group>"; };
+		EB4E4B31B05AFFFA8A3FFB84B920298A /* Pods-Andela-Challenge-Andela-ChallengeUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Andela-Challenge-Andela-ChallengeUITests.modulemap"; sourceTree = "<group>"; };
+		EC8CA0301D9971F796E0AD9B627416AC /* Box.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Box.swift; path = Sources/Box.swift; sourceTree = "<group>"; };
+		EDC1B0BEE10FB7F01708E3C675BDBD05 /* Pods-Andela-ChallengeTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Andela-ChallengeTests-Info.plist"; sourceTree = "<group>"; };
+		F00EB2F4F7B423B4284CAFE624D76523 /* UIButton+Kingfisher.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIButton+Kingfisher.swift"; path = "Sources/UIButton+Kingfisher.swift"; sourceTree = "<group>"; };
+		F51806A502FF0E79F06D81C7E16C6DC3 /* ImageDownloader.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageDownloader.swift; path = Sources/ImageDownloader.swift; sourceTree = "<group>"; };
+		F5A56DD84C0419F16EA2966E8414D211 /* Pods-Andela-Challenge-Andela-ChallengeUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Andela-Challenge-Andela-ChallengeUITests.release.xcconfig"; sourceTree = "<group>"; };
+		F64534CBAE73B59A2996148391F742F3 /* Pods-Andela-ChallengeTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Andela-ChallengeTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		FB5AA5E0BDFB320021D67B4D23A2FC12 /* Pods-Andela-Challenge-Andela-ChallengeUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Andela-Challenge-Andela-ChallengeUITests-umbrella.h"; sourceTree = "<group>"; };
+		FD0CE05D5D076B1B5190EE5DF97FD54E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5134129C4C2D210DC49AF893F55510C8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC4E36223FA06F96D5F580D856EAA933 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		926D899FE907D2E18605A81D597A3D44 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1B39D9520E174E75566A22342114814 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		993086569950FEFB52D74B93EA83FC4F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D26D9ABB0E997BBA50C823AD30938A67 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99ED92B216D0FA7F706E8B890A044EAD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26DC5CF5D24D83CA4FAF26FEEDEC22B3 /* CFNetwork.framework in Frameworks */,
+				227D467BBA344D4B0E7E4EF8CA254D5F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				61C8CC330A5CA84DA2F5F1D32AB07069 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3A94815F9A89B2FA5370AB7E117C7342 /* Pods-Andela-Challenge */ = {
+			isa = PBXGroup;
+			children = (
+				4EBA9C0317B7C320BE320C218A31CA9B /* Pods-Andela-Challenge.modulemap */,
+				4C89119740E2DB32FAFE15E4EAFB5FA4 /* Pods-Andela-Challenge-acknowledgements.markdown */,
+				C602A48172BEE4D723FA43BA60F0F71D /* Pods-Andela-Challenge-acknowledgements.plist */,
+				D3C0EEB073D3B447D569876116981AF7 /* Pods-Andela-Challenge-dummy.m */,
+				8CE8E5C5FC5CAC46C9B80AC6EA860CA1 /* Pods-Andela-Challenge-frameworks.sh */,
+				279A68ADE182422D8AB7C7E4C4D2C901 /* Pods-Andela-Challenge-Info.plist */,
+				3EE77167BF472D6C1B5863ED52020739 /* Pods-Andela-Challenge-umbrella.h */,
+				836EBAFF99D10B1A767C17B5195E533F /* Pods-Andela-Challenge.debug.xcconfig */,
+				064B91285671491C76EB7177CE5A21B2 /* Pods-Andela-Challenge.release.xcconfig */,
+			);
+			name = "Pods-Andela-Challenge";
+			path = "Target Support Files/Pods-Andela-Challenge";
+			sourceTree = "<group>";
+		};
+		3DAB32C302C0DA94B1BDB250CA24E738 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A51E1003A82CC5F6AC7E9E14D2435221 /* Kingfisher */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		415F7E119DCCA449A76AEE5A8C5CF049 /* Pods-Andela-Challenge-Andela-ChallengeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EB4E4B31B05AFFFA8A3FFB84B920298A /* Pods-Andela-Challenge-Andela-ChallengeUITests.modulemap */,
+				3BB4FBC61ECEBC812F8B77EC593E7D97 /* Pods-Andela-Challenge-Andela-ChallengeUITests-acknowledgements.markdown */,
+				9E6B5BF774B4783DCF5AF475A824B079 /* Pods-Andela-Challenge-Andela-ChallengeUITests-acknowledgements.plist */,
+				0B218EB0409AF66CE21478CE53DCFC70 /* Pods-Andela-Challenge-Andela-ChallengeUITests-dummy.m */,
+				35A932E69AB4E257A59A0206AB214082 /* Pods-Andela-Challenge-Andela-ChallengeUITests-frameworks.sh */,
+				25F08440FFAA8602F4375D58FECF2DF8 /* Pods-Andela-Challenge-Andela-ChallengeUITests-Info.plist */,
+				FB5AA5E0BDFB320021D67B4D23A2FC12 /* Pods-Andela-Challenge-Andela-ChallengeUITests-umbrella.h */,
+				6DF35F1AF153D4127A82499EAE4D7F4E /* Pods-Andela-Challenge-Andela-ChallengeUITests.debug.xcconfig */,
+				F5A56DD84C0419F16EA2966E8414D211 /* Pods-Andela-Challenge-Andela-ChallengeUITests.release.xcconfig */,
+			);
+			name = "Pods-Andela-Challenge-Andela-ChallengeUITests";
+			path = "Target Support Files/Pods-Andela-Challenge-Andela-ChallengeUITests";
+			sourceTree = "<group>";
+		};
+		517FF61E5BAFB89D6EE22307B9EDE2CF /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3A94815F9A89B2FA5370AB7E117C7342 /* Pods-Andela-Challenge */,
+				415F7E119DCCA449A76AEE5A8C5CF049 /* Pods-Andela-Challenge-Andela-ChallengeUITests */,
+				BBB8440877E8441DBEEBCBEF9536A6E2 /* Pods-Andela-ChallengeTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		61C8CC330A5CA84DA2F5F1D32AB07069 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				8D3D57353834825F7B52B816066B7789 /* CFNetwork.framework */,
+				FD0CE05D5D076B1B5190EE5DF97FD54E /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		A51E1003A82CC5F6AC7E9E14D2435221 /* Kingfisher */ = {
+			isa = PBXGroup;
+			children = (
+				3DF4BAF062EE244708D6558DD595F92F /* AnimatedImageView.swift */,
+				EC8CA0301D9971F796E0AD9B627416AC /* Box.swift */,
+				5A803B2E216BB4562DD763A78A63F75B /* CacheSerializer.swift */,
+				9538B2E3262A4D090B59582EB2F7B61C /* Filter.swift */,
+				13C7D1201DD68D9086913671AC54AF12 /* FormatIndicatedCacheSerializer.swift */,
+				853B82B42DE5C884C785ED414851628B /* Image.swift */,
+				B5BF1A16D5036EF228C801D90678F604 /* ImageCache.swift */,
+				F51806A502FF0E79F06D81C7E16C6DC3 /* ImageDownloader.swift */,
+				B7E54D7E88982ABB86752D6E63C95C1B /* ImageModifier.swift */,
+				B093DDCE4C55268908B94B9E9B4D438C /* ImagePrefetcher.swift */,
+				DA167F71928BC78569593BDB14934A44 /* ImageProcessor.swift */,
+				A6CC9E26ADDD6607DF48E1AEF5F8113F /* ImageTransition.swift */,
+				E88C18C8262BE8CCEB67F47F04F8E303 /* ImageView+Kingfisher.swift */,
+				46E53B8C90899A666A50AD947B4F2E5D /* Indicator.swift */,
+				23065A8661147711B7550F85B0445C48 /* Kingfisher.h */,
+				68F49AB4949A6E35F9F7D29237447109 /* Kingfisher.swift */,
+				C757F0F7798B47B0B48A85B5F4232438 /* KingfisherManager.swift */,
+				60870DE9BED2BF03E13BE8F63D766190 /* KingfisherOptionsInfo.swift */,
+				CF5950A433059A2F55B5DC4DAE649BED /* Placeholder.swift */,
+				7FC5B5C09A6CC22678CF02739E5D7E07 /* RequestModifier.swift */,
+				57D2FB2DCC94D929614D73683CC25004 /* Resource.swift */,
+				66B856E2D2E6F913745887BA056311FC /* String+MD5.swift */,
+				732E8FDA8F19726D465D37B58C721C70 /* ThreadHelper.swift */,
+				F00EB2F4F7B423B4284CAFE624D76523 /* UIButton+Kingfisher.swift */,
+				ACEA3550F82C1151D17B5C6824F88D18 /* Support Files */,
+			);
+			name = Kingfisher;
+			path = Kingfisher;
+			sourceTree = "<group>";
+		};
+		ACEA3550F82C1151D17B5C6824F88D18 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E6376DC144E7FAD5E35CEDC99DCF8919 /* Kingfisher.modulemap */,
+				4F78F10CF9841104026179BEB4D6C5D9 /* Kingfisher-dummy.m */,
+				1E5B2F0CCCDD61887292FF4ED7975430 /* Kingfisher-Info.plist */,
+				DAC0ACE30B6D7A9DB6D91F45CFE770D0 /* Kingfisher-prefix.pch */,
+				A7718FC847D0B75A589B7EBBBBDCEEBB /* Kingfisher-umbrella.h */,
+				B61956F8E920142A06EBD263C23B5F6D /* Kingfisher.debug.xcconfig */,
+				1B74261A5918441418497FB2666B7F8D /* Kingfisher.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Kingfisher";
+			sourceTree = "<group>";
+		};
+		BBB8440877E8441DBEEBCBEF9536A6E2 /* Pods-Andela-ChallengeTests */ = {
+			isa = PBXGroup;
+			children = (
+				A49A868BBE1FC25981BC2CE7227C1E0D /* Pods-Andela-ChallengeTests.modulemap */,
+				F64534CBAE73B59A2996148391F742F3 /* Pods-Andela-ChallengeTests-acknowledgements.markdown */,
+				038780D54FBBC6704D0164EF7346FE8E /* Pods-Andela-ChallengeTests-acknowledgements.plist */,
+				8ECCBD9D1B47FEF3442551E527FC8E0C /* Pods-Andela-ChallengeTests-dummy.m */,
+				EDC1B0BEE10FB7F01708E3C675BDBD05 /* Pods-Andela-ChallengeTests-Info.plist */,
+				CB6483985D4D9403BFD01F66680771D9 /* Pods-Andela-ChallengeTests-umbrella.h */,
+				AFC663217377829FCC605EDAC6E4D8FB /* Pods-Andela-ChallengeTests.debug.xcconfig */,
+				703668BA5C2C720FCA7BFF297E1D0DE3 /* Pods-Andela-ChallengeTests.release.xcconfig */,
+			);
+			name = "Pods-Andela-ChallengeTests";
+			path = "Target Support Files/Pods-Andela-ChallengeTests";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */,
+				3DAB32C302C0DA94B1BDB250CA24E738 /* Pods */,
+				F45B45F50B56BD1BD936FFBC80280D29 /* Products */,
+				517FF61E5BAFB89D6EE22307B9EDE2CF /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		F45B45F50B56BD1BD936FFBC80280D29 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C3F44C782D64D7EB20B61CE3844EBFAD /* Kingfisher */,
+				C94FF85765516279B40168AB39DAFACC /* Pods-Andela-Challenge */,
+				7CAD460D89610B055A6228301A7E52B8 /* Pods-Andela-Challenge-Andela-ChallengeUITests */,
+				9FB87C2B65B910E8E0E8A8D41E417224 /* Pods-Andela-ChallengeTests */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1F9F83AB0EB6C912F72F9817896AF220 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAC88BBDD1750FBF4D82622EDE019D73 /* Kingfisher.h in Headers */,
+				A8002EBBA54C95636E53BE9B2E7521ED /* Kingfisher-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37E1DF5A68241DCD666DCF7DC28EA87E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				154090B7B2FC2E959FE8B962E4FD5883 /* Pods-Andela-Challenge-Andela-ChallengeUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		728C4EAC68FB96E71C7198D01EC82FB9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A096861D62BA5EAFAA2BE8C349BA973D /* Pods-Andela-ChallengeTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0C3C1A222A2C0A209B3BA53A6C6438F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E235FE7A7FD9F87DBF53ED35F593B0C6 /* Pods-Andela-Challenge-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		A53199F1A71CC6FFDA06E38660B91BF0 /* Pods-Andela-Challenge */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1BACDE00B2E21B09E3C8D75A3915BB79 /* Build configuration list for PBXNativeTarget "Pods-Andela-Challenge" */;
+			buildPhases = (
+				C0C3C1A222A2C0A209B3BA53A6C6438F /* Headers */,
+				EBD7ABC3423D34EA4EED23E2CB301BDF /* Sources */,
+				993086569950FEFB52D74B93EA83FC4F /* Frameworks */,
+				C98551D635B7D9C630E5E366C4FA0073 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C9DFAF4D67D4D9A8BBBB30ACDEA95B34 /* PBXTargetDependency */,
+			);
+			name = "Pods-Andela-Challenge";
+			productName = Pods_Andela_Challenge;
+			productReference = C94FF85765516279B40168AB39DAFACC /* Pods-Andela-Challenge */;
+			productType = "com.apple.product-type.framework";
+		};
+		D8E320E761E3AC00DDA54119132AC596 /* Pods-Andela-ChallengeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 83F9B72AB73093EE512D9EEC02650DBB /* Build configuration list for PBXNativeTarget "Pods-Andela-ChallengeTests" */;
+			buildPhases = (
+				728C4EAC68FB96E71C7198D01EC82FB9 /* Headers */,
+				330D8CAFAD93A34ED60152A4DEFCB665 /* Sources */,
+				5134129C4C2D210DC49AF893F55510C8 /* Frameworks */,
+				BDFB241C112DB9A5CEB6D36D69BAB274 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC94DE921AB9D5C2E55F0165DD18DDE8 /* PBXTargetDependency */,
+			);
+			name = "Pods-Andela-ChallengeTests";
+			productName = Pods_Andela_ChallengeTests;
+			productReference = 9FB87C2B65B910E8E0E8A8D41E417224 /* Pods-Andela-ChallengeTests */;
+			productType = "com.apple.product-type.framework";
+		};
+		E8022D22FAA6690B5E1C379C1BCE1491 /* Kingfisher */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B99E7BEA422C2A5F76CEBB6B0BB32DA8 /* Build configuration list for PBXNativeTarget "Kingfisher" */;
+			buildPhases = (
+				1F9F83AB0EB6C912F72F9817896AF220 /* Headers */,
+				E0FA6A6CAD141A6037B02902C3A83442 /* Sources */,
+				99ED92B216D0FA7F706E8B890A044EAD /* Frameworks */,
+				2B098FD17B7DE66C651AFADA742B0676 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Kingfisher;
+			productName = Kingfisher;
+			productReference = C3F44C782D64D7EB20B61CE3844EBFAD /* Kingfisher */;
+			productType = "com.apple.product-type.framework";
+		};
+		F4C86048FC6575C3F673F2D001A7F843 /* Pods-Andela-Challenge-Andela-ChallengeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A637A7108B666FFB9F3E59CD2C9BDD71 /* Build configuration list for PBXNativeTarget "Pods-Andela-Challenge-Andela-ChallengeUITests" */;
+			buildPhases = (
+				37E1DF5A68241DCD666DCF7DC28EA87E /* Headers */,
+				C110293472EA4B0D8B360B44AE6ADF76 /* Sources */,
+				926D899FE907D2E18605A81D597A3D44 /* Frameworks */,
+				1683C250500AC293B9405DC5743B3B1D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				90BBFFF4F7FB1BF66C47ACD8DCD04EB0 /* PBXTargetDependency */,
+			);
+			name = "Pods-Andela-Challenge-Andela-ChallengeUITests";
+			productName = Pods_Andela_Challenge_Andela_ChallengeUITests;
+			productReference = 7CAD460D89610B055A6228301A7E52B8 /* Pods-Andela-Challenge-Andela-ChallengeUITests */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = F45B45F50B56BD1BD936FFBC80280D29 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E8022D22FAA6690B5E1C379C1BCE1491 /* Kingfisher */,
+				A53199F1A71CC6FFDA06E38660B91BF0 /* Pods-Andela-Challenge */,
+				F4C86048FC6575C3F673F2D001A7F843 /* Pods-Andela-Challenge-Andela-ChallengeUITests */,
+				D8E320E761E3AC00DDA54119132AC596 /* Pods-Andela-ChallengeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1683C250500AC293B9405DC5743B3B1D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B098FD17B7DE66C651AFADA742B0676 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDFB241C112DB9A5CEB6D36D69BAB274 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C98551D635B7D9C630E5E366C4FA0073 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		330D8CAFAD93A34ED60152A4DEFCB665 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F2CC384EFCDA4125101AB155D908B87 /* Pods-Andela-ChallengeTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C110293472EA4B0D8B360B44AE6ADF76 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30D201E73DAEAD3755CF82D6C634CB84 /* Pods-Andela-Challenge-Andela-ChallengeUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0FA6A6CAD141A6037B02902C3A83442 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD4823161DBD529C7BFF79AE9EA2E033 /* AnimatedImageView.swift in Sources */,
+				B81E66D2E50F259201580FB73AE5B053 /* Box.swift in Sources */,
+				DE5EA0F561515BE3A08EF4E61AA0D669 /* CacheSerializer.swift in Sources */,
+				E682D48021700A0CB14CFBB312E908B0 /* Filter.swift in Sources */,
+				87E662D163C07295C9C3EF3D36CC240E /* FormatIndicatedCacheSerializer.swift in Sources */,
+				A03B25361040CCD3494AD95A7A283038 /* Image.swift in Sources */,
+				6681AF1FD538F4733A925E42BD4412B6 /* ImageCache.swift in Sources */,
+				60C639BAF932A36DDF221240B4512423 /* ImageDownloader.swift in Sources */,
+				8826398DD36B6378A4323BC6A6498D67 /* ImageModifier.swift in Sources */,
+				8327B7A541C1348BB74B42E0322152F6 /* ImagePrefetcher.swift in Sources */,
+				DAB1D67788D9BEBCC3157B3E3FB4F00E /* ImageProcessor.swift in Sources */,
+				F94823179D8879708330D21501EF7FA5 /* ImageTransition.swift in Sources */,
+				C07CD77A27192E173EE9ACECA10D12C6 /* ImageView+Kingfisher.swift in Sources */,
+				4BECAF3CB00D9C3D9672413C29C6BF33 /* Indicator.swift in Sources */,
+				CD076312FBCFADF5A5D3A7B825143174 /* Kingfisher.swift in Sources */,
+				39B7ADBBE2DA828B62636B288AB49D7F /* Kingfisher-dummy.m in Sources */,
+				1AEF9993254E6DC249784BC73E1F3E0B /* KingfisherManager.swift in Sources */,
+				1797EBF229ACA3B7F45CC2A602D7CA16 /* KingfisherOptionsInfo.swift in Sources */,
+				4934CA02086672D3B39EDBFF4FBF8210 /* Placeholder.swift in Sources */,
+				83D2000349CA225B1585EE55CA777E61 /* RequestModifier.swift in Sources */,
+				8B7C8723049D635F9391828449049500 /* Resource.swift in Sources */,
+				CB965FB1926761BA3F7FDB8CB83DD5BD /* String+MD5.swift in Sources */,
+				B71899220FE4B4393618C22F64EDF1BA /* ThreadHelper.swift in Sources */,
+				25D230001F255507FE4EC823127F1537 /* UIButton+Kingfisher.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBD7ABC3423D34EA4EED23E2CB301BDF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB7D205F2475A0143D1B4FE400B6A52E /* Pods-Andela-Challenge-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		90BBFFF4F7FB1BF66C47ACD8DCD04EB0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Kingfisher;
+			target = E8022D22FAA6690B5E1C379C1BCE1491 /* Kingfisher */;
+			targetProxy = 96A1B368EA714B0A3FC4DF0208766EB0 /* PBXContainerItemProxy */;
+		};
+		C9DFAF4D67D4D9A8BBBB30ACDEA95B34 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Kingfisher;
+			target = E8022D22FAA6690B5E1C379C1BCE1491 /* Kingfisher */;
+			targetProxy = 84C1D4CC4F6C97D76AB4F96F0C7D9CD4 /* PBXContainerItemProxy */;
+		};
+		EC94DE921AB9D5C2E55F0165DD18DDE8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Andela-Challenge";
+			target = A53199F1A71CC6FFDA06E38660B91BF0 /* Pods-Andela-Challenge */;
+			targetProxy = 132E379BFB195CA940F36C5236701785 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		18166681A113BAD0C9EB98C86007D3CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F5A56DD84C0419F16EA2966E8414D211 /* Pods-Andela-Challenge-Andela-ChallengeUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Andela-Challenge-Andela-ChallengeUITests/Pods-Andela-Challenge-Andela-ChallengeUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Andela-Challenge-Andela-ChallengeUITests/Pods-Andela-Challenge-Andela-ChallengeUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		2EBDB77062B771BEBAEB24EEADF5EE1A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AFC663217377829FCC605EDAC6E4D8FB /* Pods-Andela-ChallengeTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Andela-ChallengeTests/Pods-Andela-ChallengeTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Andela-ChallengeTests/Pods-Andela-ChallengeTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		67686C34DCD36E9BFE6DB2DB6E155A4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 836EBAFF99D10B1A767C17B5195E533F /* Pods-Andela-Challenge.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Andela-Challenge/Pods-Andela-Challenge-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Andela-Challenge/Pods-Andela-Challenge.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8DE5143C03248BB6CD542DE3963D6F3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		93DA681E471A3DB9F86A213E58BAAB6D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1B74261A5918441418497FB2666B7F8D /* Kingfisher.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Kingfisher/Kingfisher-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Kingfisher/Kingfisher-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Kingfisher/Kingfisher.modulemap";
+				PRODUCT_MODULE_NAME = Kingfisher;
+				PRODUCT_NAME = Kingfisher;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9E406C6AAF85E580207CD97B0044DEAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		B7F7A437E23618ABA170E90FA9502613 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 703668BA5C2C720FCA7BFF297E1D0DE3 /* Pods-Andela-ChallengeTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Andela-ChallengeTests/Pods-Andela-ChallengeTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Andela-ChallengeTests/Pods-Andela-ChallengeTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		BDA22A65F23DBA7B8B8CB27476BD2EC3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6DF35F1AF153D4127A82499EAE4D7F4E /* Pods-Andela-Challenge-Andela-ChallengeUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Andela-Challenge-Andela-ChallengeUITests/Pods-Andela-Challenge-Andela-ChallengeUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Andela-Challenge-Andela-ChallengeUITests/Pods-Andela-Challenge-Andela-ChallengeUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C1899F3CD915CBEA38D1E184E4F640ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 064B91285671491C76EB7177CE5A21B2 /* Pods-Andela-Challenge.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Andela-Challenge/Pods-Andela-Challenge-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Andela-Challenge/Pods-Andela-Challenge.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		DAF169EBF89A22FB533ADD7496F74BBB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B61956F8E920142A06EBD263C23B5F6D /* Kingfisher.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Kingfisher/Kingfisher-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Kingfisher/Kingfisher-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Kingfisher/Kingfisher.modulemap";
+				PRODUCT_MODULE_NAME = Kingfisher;
+				PRODUCT_NAME = Kingfisher;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1BACDE00B2E21B09E3C8D75A3915BB79 /* Build configuration list for PBXNativeTarget "Pods-Andela-Challenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67686C34DCD36E9BFE6DB2DB6E155A4B /* Debug */,
+				C1899F3CD915CBEA38D1E184E4F640ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8DE5143C03248BB6CD542DE3963D6F3A /* Debug */,
+				9E406C6AAF85E580207CD97B0044DEAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83F9B72AB73093EE512D9EEC02650DBB /* Build configuration list for PBXNativeTarget "Pods-Andela-ChallengeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2EBDB77062B771BEBAEB24EEADF5EE1A /* Debug */,
+				B7F7A437E23618ABA170E90FA9502613 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A637A7108B666FFB9F3E59CD2C9BDD71 /* Build configuration list for PBXNativeTarget "Pods-Andela-Challenge-Andela-ChallengeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDA22A65F23DBA7B8B8CB27476BD2EC3 /* Debug */,
+				18166681A113BAD0C9EB98C86007D3CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B99E7BEA422C2A5F76CEBB6B0BB32DA8 /* Build configuration list for PBXNativeTarget "Kingfisher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAF169EBF89A22FB533ADD7496F74BBB /* Debug */,
+				93DA681E471A3DB9F86A213E58BAAB6D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

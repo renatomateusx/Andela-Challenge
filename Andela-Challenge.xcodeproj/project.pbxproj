@@ -1,0 +1,755 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		41E597EF273D8C7E00DF998A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41E597EE273D8C7E00DF998A /* AppDelegate.swift */; };
+		41E597F1273D8C7E00DF998A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41E597F0273D8C7E00DF998A /* SceneDelegate.swift */; };
+		41E597F3273D8C7E00DF998A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41E597F2273D8C7E00DF998A /* ViewController.swift */; };
+		41E597F6273D8C7E00DF998A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41E597F4273D8C7E00DF998A /* Main.storyboard */; };
+		41E597F8273D8C8000DF998A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41E597F7273D8C8000DF998A /* Assets.xcassets */; };
+		41E597FB273D8C8000DF998A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41E597F9273D8C8000DF998A /* LaunchScreen.storyboard */; };
+		41E59806273D8C8000DF998A /* Andela_ChallengeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41E59805273D8C8000DF998A /* Andela_ChallengeTests.swift */; };
+		41E59811273D8C8000DF998A /* Andela_ChallengeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41E59810273D8C8000DF998A /* Andela_ChallengeUITests.swift */; };
+		5480593A90412181EF2D4D4E /* Pods_Andela_Challenge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49ECA9D2B1B9EE37AC7B3096 /* Pods_Andela_Challenge.framework */; };
+		7F76337E21AC21D892025F85 /* Pods_Andela_ChallengeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A54CFD8E32D506ACC7F178B0 /* Pods_Andela_ChallengeTests.framework */; };
+		A4E773353FAA15C33C97028B /* Pods_Andela_Challenge_Andela_ChallengeUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC1F7C2C4D50B0654EEB5593 /* Pods_Andela_Challenge_Andela_ChallengeUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		41E59802273D8C8000DF998A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 41E597E3273D8C7E00DF998A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 41E597EA273D8C7E00DF998A;
+			remoteInfo = "Andela-Challenge";
+		};
+		41E5980D273D8C8000DF998A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 41E597E3273D8C7E00DF998A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 41E597EA273D8C7E00DF998A;
+			remoteInfo = "Andela-Challenge";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1F1793E8E5A13E61692D8F1C /* Pods-Andela-Challenge.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Andela-Challenge.debug.xcconfig"; path = "Target Support Files/Pods-Andela-Challenge/Pods-Andela-Challenge.debug.xcconfig"; sourceTree = "<group>"; };
+		3113C6200C2099EA93F9AB9E /* Pods-Andela-ChallengeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Andela-ChallengeTests.debug.xcconfig"; path = "Target Support Files/Pods-Andela-ChallengeTests/Pods-Andela-ChallengeTests.debug.xcconfig"; sourceTree = "<group>"; };
+		41E597EB273D8C7E00DF998A /* Andela-Challenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Andela-Challenge.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		41E597EE273D8C7E00DF998A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		41E597F0273D8C7E00DF998A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		41E597F2273D8C7E00DF998A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		41E597F5273D8C7E00DF998A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		41E597F7273D8C8000DF998A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		41E597FA273D8C8000DF998A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		41E597FC273D8C8000DF998A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		41E59801273D8C8000DF998A /* Andela-ChallengeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Andela-ChallengeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		41E59805273D8C8000DF998A /* Andela_ChallengeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Andela_ChallengeTests.swift; sourceTree = "<group>"; };
+		41E59807273D8C8000DF998A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		41E5980C273D8C8000DF998A /* Andela-ChallengeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Andela-ChallengeUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		41E59810273D8C8000DF998A /* Andela_ChallengeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Andela_ChallengeUITests.swift; sourceTree = "<group>"; };
+		41E59812273D8C8000DF998A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		49720F9000FD9DB13A9475A2 /* Pods-Andela-Challenge-Andela-ChallengeUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Andela-Challenge-Andela-ChallengeUITests.debug.xcconfig"; path = "Target Support Files/Pods-Andela-Challenge-Andela-ChallengeUITests/Pods-Andela-Challenge-Andela-ChallengeUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		49ECA9D2B1B9EE37AC7B3096 /* Pods_Andela_Challenge.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Andela_Challenge.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		711BEB0A29C130B480EBBC3C /* Pods-Andela-Challenge-Andela-ChallengeUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Andela-Challenge-Andela-ChallengeUITests.release.xcconfig"; path = "Target Support Files/Pods-Andela-Challenge-Andela-ChallengeUITests/Pods-Andela-Challenge-Andela-ChallengeUITests.release.xcconfig"; sourceTree = "<group>"; };
+		98042D136711722638305207 /* Pods-Andela-ChallengeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Andela-ChallengeTests.release.xcconfig"; path = "Target Support Files/Pods-Andela-ChallengeTests/Pods-Andela-ChallengeTests.release.xcconfig"; sourceTree = "<group>"; };
+		A54CFD8E32D506ACC7F178B0 /* Pods_Andela_ChallengeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Andela_ChallengeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED73A0566942A8B8306DF22E /* Pods-Andela-Challenge.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Andela-Challenge.release.xcconfig"; path = "Target Support Files/Pods-Andela-Challenge/Pods-Andela-Challenge.release.xcconfig"; sourceTree = "<group>"; };
+		FC1F7C2C4D50B0654EEB5593 /* Pods_Andela_Challenge_Andela_ChallengeUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Andela_Challenge_Andela_ChallengeUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		41E597E8273D8C7E00DF998A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5480593A90412181EF2D4D4E /* Pods_Andela_Challenge.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41E597FE273D8C8000DF998A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F76337E21AC21D892025F85 /* Pods_Andela_ChallengeTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41E59809273D8C8000DF998A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4E773353FAA15C33C97028B /* Pods_Andela_Challenge_Andela_ChallengeUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		41E597E2273D8C7E00DF998A = {
+			isa = PBXGroup;
+			children = (
+				41E597ED273D8C7E00DF998A /* Andela-Challenge */,
+				41E59804273D8C8000DF998A /* Andela-ChallengeTests */,
+				41E5980F273D8C8000DF998A /* Andela-ChallengeUITests */,
+				41E597EC273D8C7E00DF998A /* Products */,
+				93FEC35D8382A8173655BB10 /* Pods */,
+				7BFD768FB3D569254E9B374A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		41E597EC273D8C7E00DF998A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				41E597EB273D8C7E00DF998A /* Andela-Challenge.app */,
+				41E59801273D8C8000DF998A /* Andela-ChallengeTests.xctest */,
+				41E5980C273D8C8000DF998A /* Andela-ChallengeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		41E597ED273D8C7E00DF998A /* Andela-Challenge */ = {
+			isa = PBXGroup;
+			children = (
+				41E597EE273D8C7E00DF998A /* AppDelegate.swift */,
+				41E597F0273D8C7E00DF998A /* SceneDelegate.swift */,
+				41E597F2273D8C7E00DF998A /* ViewController.swift */,
+				41E597F4273D8C7E00DF998A /* Main.storyboard */,
+				41E597F7273D8C8000DF998A /* Assets.xcassets */,
+				41E597F9273D8C8000DF998A /* LaunchScreen.storyboard */,
+				41E597FC273D8C8000DF998A /* Info.plist */,
+			);
+			path = "Andela-Challenge";
+			sourceTree = "<group>";
+		};
+		41E59804273D8C8000DF998A /* Andela-ChallengeTests */ = {
+			isa = PBXGroup;
+			children = (
+				41E59805273D8C8000DF998A /* Andela_ChallengeTests.swift */,
+				41E59807273D8C8000DF998A /* Info.plist */,
+			);
+			path = "Andela-ChallengeTests";
+			sourceTree = "<group>";
+		};
+		41E5980F273D8C8000DF998A /* Andela-ChallengeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				41E59810273D8C8000DF998A /* Andela_ChallengeUITests.swift */,
+				41E59812273D8C8000DF998A /* Info.plist */,
+			);
+			path = "Andela-ChallengeUITests";
+			sourceTree = "<group>";
+		};
+		7BFD768FB3D569254E9B374A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				49ECA9D2B1B9EE37AC7B3096 /* Pods_Andela_Challenge.framework */,
+				FC1F7C2C4D50B0654EEB5593 /* Pods_Andela_Challenge_Andela_ChallengeUITests.framework */,
+				A54CFD8E32D506ACC7F178B0 /* Pods_Andela_ChallengeTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		93FEC35D8382A8173655BB10 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1F1793E8E5A13E61692D8F1C /* Pods-Andela-Challenge.debug.xcconfig */,
+				ED73A0566942A8B8306DF22E /* Pods-Andela-Challenge.release.xcconfig */,
+				49720F9000FD9DB13A9475A2 /* Pods-Andela-Challenge-Andela-ChallengeUITests.debug.xcconfig */,
+				711BEB0A29C130B480EBBC3C /* Pods-Andela-Challenge-Andela-ChallengeUITests.release.xcconfig */,
+				3113C6200C2099EA93F9AB9E /* Pods-Andela-ChallengeTests.debug.xcconfig */,
+				98042D136711722638305207 /* Pods-Andela-ChallengeTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		41E597EA273D8C7E00DF998A /* Andela-Challenge */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 41E59815273D8C8000DF998A /* Build configuration list for PBXNativeTarget "Andela-Challenge" */;
+			buildPhases = (
+				D9E746D83FFC9D4A96DDD82D /* [CP] Check Pods Manifest.lock */,
+				41E597E7273D8C7E00DF998A /* Sources */,
+				41E597E8273D8C7E00DF998A /* Frameworks */,
+				41E597E9273D8C7E00DF998A /* Resources */,
+				50CAA22DC7E8CEF51B15AA8A /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Andela-Challenge";
+			productName = "Andela-Challenge";
+			productReference = 41E597EB273D8C7E00DF998A /* Andela-Challenge.app */;
+			productType = "com.apple.product-type.application";
+		};
+		41E59800273D8C8000DF998A /* Andela-ChallengeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 41E59818273D8C8000DF998A /* Build configuration list for PBXNativeTarget "Andela-ChallengeTests" */;
+			buildPhases = (
+				3C5CC7C84EBFA926CF949110 /* [CP] Check Pods Manifest.lock */,
+				41E597FD273D8C8000DF998A /* Sources */,
+				41E597FE273D8C8000DF998A /* Frameworks */,
+				41E597FF273D8C8000DF998A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				41E59803273D8C8000DF998A /* PBXTargetDependency */,
+			);
+			name = "Andela-ChallengeTests";
+			productName = "Andela-ChallengeTests";
+			productReference = 41E59801273D8C8000DF998A /* Andela-ChallengeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		41E5980B273D8C8000DF998A /* Andela-ChallengeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 41E5981B273D8C8000DF998A /* Build configuration list for PBXNativeTarget "Andela-ChallengeUITests" */;
+			buildPhases = (
+				E520560CBC6249857200B67E /* [CP] Check Pods Manifest.lock */,
+				41E59808273D8C8000DF998A /* Sources */,
+				41E59809273D8C8000DF998A /* Frameworks */,
+				41E5980A273D8C8000DF998A /* Resources */,
+				3349FD953BF2095F0D1CF69B /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				41E5980E273D8C8000DF998A /* PBXTargetDependency */,
+			);
+			name = "Andela-ChallengeUITests";
+			productName = "Andela-ChallengeUITests";
+			productReference = 41E5980C273D8C8000DF998A /* Andela-ChallengeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		41E597E3273D8C7E00DF998A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					41E597EA273D8C7E00DF998A = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					41E59800273D8C8000DF998A = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 41E597EA273D8C7E00DF998A;
+					};
+					41E5980B273D8C8000DF998A = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 41E597EA273D8C7E00DF998A;
+					};
+				};
+			};
+			buildConfigurationList = 41E597E6273D8C7E00DF998A /* Build configuration list for PBXProject "Andela-Challenge" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 41E597E2273D8C7E00DF998A;
+			productRefGroup = 41E597EC273D8C7E00DF998A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				41E597EA273D8C7E00DF998A /* Andela-Challenge */,
+				41E59800273D8C8000DF998A /* Andela-ChallengeTests */,
+				41E5980B273D8C8000DF998A /* Andela-ChallengeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		41E597E9273D8C7E00DF998A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41E597FB273D8C8000DF998A /* LaunchScreen.storyboard in Resources */,
+				41E597F8273D8C8000DF998A /* Assets.xcassets in Resources */,
+				41E597F6273D8C7E00DF998A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41E597FF273D8C8000DF998A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41E5980A273D8C8000DF998A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3349FD953BF2095F0D1CF69B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Andela-Challenge-Andela-ChallengeUITests/Pods-Andela-Challenge-Andela-ChallengeUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Andela-Challenge-Andela-ChallengeUITests/Pods-Andela-Challenge-Andela-ChallengeUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Andela-Challenge-Andela-ChallengeUITests/Pods-Andela-Challenge-Andela-ChallengeUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3C5CC7C84EBFA926CF949110 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Andela-ChallengeTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		50CAA22DC7E8CEF51B15AA8A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Andela-Challenge/Pods-Andela-Challenge-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Andela-Challenge/Pods-Andela-Challenge-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Andela-Challenge/Pods-Andela-Challenge-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D9E746D83FFC9D4A96DDD82D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Andela-Challenge-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E520560CBC6249857200B67E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Andela-Challenge-Andela-ChallengeUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		41E597E7273D8C7E00DF998A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41E597F3273D8C7E00DF998A /* ViewController.swift in Sources */,
+				41E597EF273D8C7E00DF998A /* AppDelegate.swift in Sources */,
+				41E597F1273D8C7E00DF998A /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41E597FD273D8C8000DF998A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41E59806273D8C8000DF998A /* Andela_ChallengeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41E59808273D8C8000DF998A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41E59811273D8C8000DF998A /* Andela_ChallengeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		41E59803273D8C8000DF998A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 41E597EA273D8C7E00DF998A /* Andela-Challenge */;
+			targetProxy = 41E59802273D8C8000DF998A /* PBXContainerItemProxy */;
+		};
+		41E5980E273D8C8000DF998A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 41E597EA273D8C7E00DF998A /* Andela-Challenge */;
+			targetProxy = 41E5980D273D8C8000DF998A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		41E597F4273D8C7E00DF998A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				41E597F5273D8C7E00DF998A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		41E597F9273D8C8000DF998A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				41E597FA273D8C8000DF998A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		41E59813273D8C8000DF998A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		41E59814273D8C8000DF998A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		41E59816273D8C8000DF998A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1F1793E8E5A13E61692D8F1C /* Pods-Andela-Challenge.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CPDNCAZJQ6;
+				INFOPLIST_FILE = "Andela-Challenge/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.renatomateusx.Andela-Challenge";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		41E59817273D8C8000DF998A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ED73A0566942A8B8306DF22E /* Pods-Andela-Challenge.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CPDNCAZJQ6;
+				INFOPLIST_FILE = "Andela-Challenge/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.renatomateusx.Andela-Challenge";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		41E59819273D8C8000DF998A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3113C6200C2099EA93F9AB9E /* Pods-Andela-ChallengeTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CPDNCAZJQ6;
+				INFOPLIST_FILE = "Andela-ChallengeTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.renatomateusx.Andela-ChallengeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Andela-Challenge.app/Andela-Challenge";
+			};
+			name = Debug;
+		};
+		41E5981A273D8C8000DF998A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 98042D136711722638305207 /* Pods-Andela-ChallengeTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CPDNCAZJQ6;
+				INFOPLIST_FILE = "Andela-ChallengeTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.renatomateusx.Andela-ChallengeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Andela-Challenge.app/Andela-Challenge";
+			};
+			name = Release;
+		};
+		41E5981C273D8C8000DF998A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 49720F9000FD9DB13A9475A2 /* Pods-Andela-Challenge-Andela-ChallengeUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CPDNCAZJQ6;
+				INFOPLIST_FILE = "Andela-ChallengeUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.renatomateusx.Andela-ChallengeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Andela-Challenge";
+			};
+			name = Debug;
+		};
+		41E5981D273D8C8000DF998A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 711BEB0A29C130B480EBBC3C /* Pods-Andela-Challenge-Andela-ChallengeUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CPDNCAZJQ6;
+				INFOPLIST_FILE = "Andela-ChallengeUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.renatomateusx.Andela-ChallengeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Andela-Challenge";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		41E597E6273D8C7E00DF998A /* Build configuration list for PBXProject "Andela-Challenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41E59813273D8C8000DF998A /* Debug */,
+				41E59814273D8C8000DF998A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		41E59815273D8C8000DF998A /* Build configuration list for PBXNativeTarget "Andela-Challenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41E59816273D8C8000DF998A /* Debug */,
+				41E59817273D8C8000DF998A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		41E59818273D8C8000DF998A /* Build configuration list for PBXNativeTarget "Andela-ChallengeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41E59819273D8C8000DF998A /* Debug */,
+				41E5981A273D8C8000DF998A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		41E5981B273D8C8000DF998A /* Build configuration list for PBXNativeTarget "Andela-ChallengeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41E5981C273D8C8000DF998A /* Debug */,
+				41E5981D273D8C8000DF998A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 41E597E3273D8C7E00DF998A /* Project object */;
+}
