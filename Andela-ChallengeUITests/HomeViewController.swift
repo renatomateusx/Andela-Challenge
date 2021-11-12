@@ -12,15 +12,15 @@ class HomeViewControllerUITest: XCTestCase {
     func testTableResults() {
         let app = XCUIApplication()
         app.launch()
-        _ = app.tables.firstMatch.waitForExistence(timeout: 5)
-        let cellCount = app.tables.cells.count
+        _ = app.collectionViews.firstMatch.waitForExistence(timeout: 15)
+        let cellCount = app.collectionViews.cells.count
         XCTAssertTrue(cellCount > 0)
     }
     
     func testTapTableViewCell() {
         let app = XCUIApplication()
         app.launch()
-        let cell = app.tables.cells.element(boundBy: 2)
+        let cell = app.collectionViews.cells.element(boundBy: 2)
         XCTAssertTrue(cell.exists)
         cell.tap()
     }
@@ -28,7 +28,7 @@ class HomeViewControllerUITest: XCTestCase {
     func testSwipeDownNavigation() {
         let app = XCUIApplication()
         app.launch()
-        let cell = app.tables.cells.element(boundBy: 2)
+        let cell = app.collectionViews.cells.element(boundBy: 2)
         XCTAssertTrue(cell.exists)
         cell.tap()
         app.swipeDown()
@@ -37,10 +37,12 @@ class HomeViewControllerUITest: XCTestCase {
     func testLoadMore() {
         let app = XCUIApplication()
         app.launch()
-        _ = app.tables.firstMatch.waitForExistence(timeout: 5)
-        let firstCount = app.tables.staticTexts.count
-        app.tables.firstMatch.swipeUp()
-        var afterCount = app.tables.staticTexts.count
+        _ = app.collectionViews.firstMatch.waitForExistence(timeout: 5)
+        let firstCount = app.collectionViews.staticTexts.count
+        for _ in 1...25 {
+            app.collectionViews.firstMatch.swipeUp()
+        }
+        var afterCount = app.collectionViews.staticTexts.count
         afterCount += 5
         XCTAssertTrue(afterCount > firstCount)
     }
