@@ -2,7 +2,7 @@
 Project made as a challenge for Andela Company
 
 # Used:
-MovieDB API (popular movies and detail movie)
+MovieDB API (popular movies and detail movie)<br/>
 KingFisher<br/>
 URLSession<br/>
 Unit Tests<br/>
