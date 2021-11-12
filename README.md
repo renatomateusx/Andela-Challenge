@@ -5,8 +5,8 @@ Project made as a challenge for Andela Company
 MovieDB API (popular movies and detail movie)<br/>
 KingFisher<br/>
 URLSession<br/>
-Unit Tests<br/>
-UI Tests<br/>
+Unit Tests (basic tests) <br/>
+UI Tests (basic tests) <br/>
 SwiftLint<br/>
 
 # Preview
