@@ -64,7 +64,7 @@ extension HomeViewController {
 // MARK: - ViewControllerViewModelDelegate
 
 extension HomeViewController: HomeViewModelDelegate {
-    func onSuccessFetchingProducts(movies: DataMovie) {
+    func onSuccessFetchingMovies(movies: DataMovie) {
         self.dataMovie = movies
         if let results = movies.results {
             self.page = movies.page ?? 1
@@ -74,11 +74,10 @@ extension HomeViewController: HomeViewModelDelegate {
                 self.movies.append(contentsOf: results)
             }
         }
-        
         self.showCollectionView()
     }
     
-    func onFailureFetchingProducts(error: Error) {
+    func onFailureFetchingMovies(error: Error) {
         DispatchQueue.main.async {
             self.collectionView.backgroundView = self.getEmptyView()
         }
@@ -102,7 +101,7 @@ extension HomeViewController: UICollectionViewDataSource {
     
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
         let movie = self.movies[indexPath.row]
-        print("selected: \(movie.title)")
+        self.selectMovie(movie)
     }
 }
 
@@ -148,6 +147,19 @@ private extension HomeViewController {
         DispatchQueue.main.async {
             self.collectionView.backgroundView = nil
             self.collectionView.reloadData()
+        }
+    }
+}
+
+// MARK: - Selection Movie
+
+extension HomeViewController {
+    func selectMovie(_ movie: Movie) {
+        DispatchQueue.main.async {
+            let controller = DetailViewController(with: movie)
+            let navigationController = UINavigationController(rootViewController: controller)
+            navigationController.modalPresentationStyle = .overCurrentContext
+            self.present(navigationController, animated: true, completion: nil)
         }
     }
 }

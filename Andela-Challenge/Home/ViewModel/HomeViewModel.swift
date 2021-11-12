@@ -8,29 +8,29 @@
 import Foundation
 
 protocol HomeViewModelDelegate: AnyObject {
-    func onSuccessFetchingProducts(movies: DataMovie)
-    func onFailureFetchingProducts(error: Error)
+    func onSuccessFetchingMovies(movies: DataMovie)
+    func onFailureFetchingMovies(error: Error)
 }
 
 class HomeViewModel {
     
     // MARK: - Private Properties
-    let productsService: PopularMoviesServiceProtocol
+    let moviesService: PopularMoviesServiceProtocol
     var delegate: HomeViewModelDelegate?
     // MARK: - Inits
     
     init(with service: PopularMoviesServiceProtocol) {
-        self.productsService = service
+        self.moviesService = service
     }
     
     func fetchData(_ page: Int) {
-        productsService.fetchData(page) { result in
+        moviesService.fetchData(page) { result in
             switch result {
             
             case .success(let movies):
-                self.delegate?.onSuccessFetchingProducts(movies: movies)
+                self.delegate?.onSuccessFetchingMovies(movies: movies)
             case .failure(let error):
-                self.delegate?.onFailureFetchingProducts(error: error)
+                self.delegate?.onFailureFetchingMovies(error: error)
             }
         }
     }
